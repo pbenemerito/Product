@@ -1,0 +1,16 @@
+
+  <table class="table table-hover">
+    <thead>
+      <tr>
+      <th>Product Name</th>
+      <th>Product Price<th/>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th><%= @product.product_name %></th>
+        <th><%= @product.product_price %></th>
+      </tr>
+    </tbody>
+  </table>
+  <%= link_to 'Back', products_path, class: "btn btn-outline-primary" %>
